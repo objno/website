@@ -1,30 +1,21 @@
-import {Link} from 'gatsby'
-import React from 'react'
-import Icon from './icon'
-import {cn} from '../lib/helpers'
+import React from 'react';
+import styled from 'styled-components';
+import Logo from './Logo';
+import Flex from './Flex';
+import Box from './Box';
+import MainNavigation from './MainNavigation';
 
-import styles from './header.module.css'
+const Container = styled(Flex)`
+  height: 2.5rem;
+`;
 
-const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
-  <div className={styles.root}>
-    <div className={styles.wrapper}>
-      <div className={styles.branding}>
-        <Link to='/'>{siteTitle}</Link>
-      </div>
 
-      <button className={styles.toggleNavButton} onClick={showNav ? onHideNav : onShowNav}>
-        <Icon symbol='hamburger' />
-      </button>
+const Header = () => (
+  <Container alignItems="center">
+    <Logo />
+    <Box flexGrow='1' />
+    <MainNavigation />
+  </Container>
+);
 
-      <nav className={cn(styles.nav, showNav && styles.showNav)}>
-        <ul>
-          <li>
-            <Link to='/archive/'>Archive</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-)
-
-export default Header
+export default Header;

@@ -1,23 +1,38 @@
-import React from 'react'
-import Header from './header'
+import React from 'react';
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
+import { normalize } from 'styled-normalize';
+import { space } from 'styled-system';
 
-import '../styles/layout.css'
-import styles from './layout.module.css'
+import Header from './Header';
+import theme from '../theme';
 
-const Layout = ({children, onHideNav, onShowNav, showNav, siteTitle}) => (
-  <>
-    <Header siteTitle={siteTitle} onHideNav={onHideNav} onShowNav={onShowNav} showNav={showNav} />
-    <div className={styles.content}>{children}</div>
-    <footer className={styles.footer}>
-      <div className={styles.footerWrapper}>
-        <div className={styles.siteInfo}>
-          © {new Date().getFullYear()}, Built with <a href='https://www.sanity.io'>Sanity</a> &amp;
-          {` `}
-          <a href='https://www.gatsbyjs.org'>Gatsby</a>
-        </div>
-      </div>
-    </footer>
-  </>
-)
+const GlobalStyle = createGlobalStyle`
+  ${normalize}
 
-export default Layout
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: 'Inria Sans', system-ui, sans-serif;
+    background-color: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.baseFontColor};
+  }
+`;
+
+const Container = styled.div`
+  max-width: ${props => props.theme.containerMaxWidth}
+  margin: 0 auto;
+  ${space}
+`;
+
+const Layout = ({ children }) => (
+  <ThemeProvider theme={theme}>
+    <GlobalStyle />
+    <Container p={[1 / 2, 1, 1, 2]} >
+      <Header />
+      {children}
+    </Container>
+  </ThemeProvider>
+);
+
+export default Layout;
