@@ -2,7 +2,8 @@
 .DS_Store
 
 # Dependency directories
-/node_modules
+node_modules
+dist
 
 # lerna files
 /lerna-debug.log
