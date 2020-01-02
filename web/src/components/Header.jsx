@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import Logo from './Logo';
 import Flex from './Flex';
 import Box from './Box';
-import MainNavigation from './MainNavigation';
+import Navigation from './Navigation';
+import { Link } from 'gatsby';
 
 const Container = styled(Flex)`
   height: 2.5rem;
@@ -11,10 +12,12 @@ const Container = styled(Flex)`
 
 
 const Header = () => (
-  <Container alignItems="center">
-    <Logo />
-    <Box flexGrow='1' />
-    <MainNavigation />
+  <Container alignItems="center" mb="2">
+    <Link to="/">
+      <Logo />
+    </Link>
+    <Box flexGrow="1" />
+    <Navigation />
   </Container>
 );
 

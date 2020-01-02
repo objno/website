@@ -31,11 +31,19 @@ export default {
       }
     },
     {
-      name: 'author',
-      type: 'reference',
-      description: 'Publish an author and set a reference to them here.',
-      title: 'Author',
-      to: [{type: 'person'}]
+      name: 'address',
+      type: 'text',
+      title: 'Address'
+    },
+    {
+      name: 'vatId',
+      type: 'number',
+      title: 'VAT Id',
+    },
+    {
+      name: 'publicEmail',
+      type: 'email',
+      title: 'Public E-mail'
     }
   ]
 }

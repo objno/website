@@ -5,13 +5,25 @@ import { space } from 'styled-system';
 
 import Header from './Header';
 import theme from '../theme';
+import Footer from './Footer';
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
 
   html {
-    font-size: 16px;
+    font-size: 22px;
   }
+  ${props => props.theme.mediaQueries.medium} {
+    html {
+      font-size: calc(16px - 6 * ((100vw - 320px) / 680));
+    }
+  }
+  ${props => props.theme.mediaQueries.large} {
+    html {
+      font-size: 16px;
+    }
+  }
+
   body {
     font-family: 'Inria Sans', system-ui, sans-serif;
     background-color: ${props => props.theme.colors.background};
@@ -20,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Container = styled.div`
-  max-width: ${props => props.theme.containerMaxWidth}
+  max-width: ${props => props.theme.containerMaxWidth};
   margin: 0 auto;
   ${space}
 `;
@@ -28,9 +40,10 @@ const Container = styled.div`
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <GlobalStyle />
-    <Container p={[1 / 2, 1, 1, 2]} >
+    <Container p={[1, 2, 2, 3]} >
       <Header />
       {children}
+      <Footer />
     </Container>
   </ThemeProvider>
 );

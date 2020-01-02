@@ -6,6 +6,11 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'mainImage',
+      title: 'Main image',
+      type: 'figure'
+    },
+    {
       name: 'title',
       title: 'Title',
       type: 'string'
@@ -29,12 +34,18 @@ export default {
       name: 'categories',
       title: 'Categories',
       type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}]
+      of: [{ type: 'reference', to: { type: 'category' } }]
     },
     {
       name: 'body',
       title: 'Body',
       type: 'projectPortableText'
+    },
+    {
+      name: 'publishedAt',
+      title: 'Published at',
+      description: 'You can use this field to schedule the news article',
+      type: 'datetime'
     }
   ],
   preview: {
@@ -43,14 +54,14 @@ export default {
       slug: 'slug',
       media: 'mainImage'
     },
-    prepare({title = 'No title', publishedAt, slug = {}, media}) {
-      const dateSegment = format(publishedAt, 'YYYY/MM')
-      const path = `/${dateSegment}/${slug.current}/`
-      return {
-        title,
-        media,
-        subtitle: publishedAt ? path : 'Missing publishing date'
-      }
-    }
+    // prepare({ title = 'No title', publishedAt, slug = {}, media }) {
+    //   const dateSegment = format(publishedAt, 'YYYY/MM');
+    //   const path = `/${dateSegment}/${slug.current}/`;
+    //   return {
+    //     title,
+    //     media,
+    //     subtitle: publishedAt ? path : 'Missing publishing date'
+    //   };
+    // }
   }
-}
+};

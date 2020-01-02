@@ -6,12 +6,32 @@ import MdPic from 'react-icons/lib/md/image';
 import MdPosts from 'react-icons/lib/md/library-books';
 
 const hiddenDocTypes = listItem =>
-  !['category', 'person', 'post', 'slide', 'link', 'homepage', 'sampleProject', 'siteSettings'].includes(listItem.getId());
+  ![
+    'category',
+    'person',
+    'post',
+    'slide',
+    'link',
+    'homepage',
+    'callToActionElement',
+    'project',
+    'siteSettings',
+    'page'
+  ].includes(listItem.getId());
 
 export default () =>
   S.list()
     .title('Content')
     .items([
+      S.listItem()
+        .title('About')
+        .child(
+          S.editor()
+            .id('about')
+            .schemaType('page')
+            .documentId('about')
+        )
+        .icon(MdSettings),
       S.listItem()
         .title('Settings')
         .child(
@@ -46,9 +66,9 @@ export default () =>
       //   .child(S.documentTypeList('link').title('Navigation'))
       //   .icon(MdMenu),
       S.listItem()
-        .title('Sample projects')
-        .schemaType('sampleProject')
-        .child(S.documentTypeList('sampleProject').title('Sample projects')),
+        .title('Projects')
+        .schemaType('project')
+        .child(S.documentTypeList('project').title('Projects')),
       S.listItem()
         .title('People')
         .schemaType('person')
