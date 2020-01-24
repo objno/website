@@ -23,6 +23,7 @@ const InputBox = styled.div.attrs({
   label {
     display: block;
     text-transform: uppercase;
+    margin-bottom: 0.5rem;
   }
   ${space}
 `;
@@ -30,7 +31,7 @@ const InputBox = styled.div.attrs({
 const Input = styled.input.attrs({
   border: '2px solid',
   borderColor: 'primary',
-  p: 2,
+  p: 1,
   color: 'white',
   width: [1]
 })`
@@ -50,7 +51,7 @@ const Input = styled.input.attrs({
 const Textarea = styled.textarea.attrs({
   border: '2px solid',
   borderColor: 'primary',
-  p: 2,
+  p: 1,
   color: 'white',
   width: [1]
 })`

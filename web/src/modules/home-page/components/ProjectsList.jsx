@@ -7,7 +7,7 @@ const ProjectsList = ({ ourProjects }) => {
   return (
     <Box>
       <h2>Våre prosjekter</h2>
-      <Grid>
+      <Grid mb="3" gridTemplateColumns={['', '', '1fr 1fr 1fr']} gridGap={30}>
         {ourProjects &&
           ourProjects.map(
             (

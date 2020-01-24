@@ -42,16 +42,16 @@ const PortfolioPage = props => {
   return (
     <Layout>
       <SEO title="Portefølje" description={site.description} keywords={site.keywords} />
-      <Grid>
+      <Grid gridTemplateColumns={['', '', '1fr 1fr']}  gridGap={30}>
         {projects &&
           projects.map(
             project =>
               project && (
-                <Box textAlign="center">
+                <Box textAlign="left">
                   {project.mainImage && project.mainImage.asset && (
                     <img src={project.mainImage.asset.fixed.src} />
                   )}
-                  <BlockContent textAlign="left" blocks={project._rawExcerpt || []} />
+                  <BlockContent mt={2} textAlign="left" blocks={project._rawExcerpt || []} />
                 </Box>
               )
           )}
