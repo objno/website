@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72.185" height="40" viewBox="0 0 72.185 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="72.185" height="40" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="ayr-logo" clip-path="url(#clip-path)">
+    <g id="ayr_logo">
+      <path id="Path_1679" data-name="Path 1679" d="M380.1,327.033a11.744,11.744,0,0,0,7.451-4.165,11.589,11.589,0,0,0,2.434-7.194,11,11,0,0,0-3.651-8.479q-3.651-3.347-10.385-3.34H365.246l-13.093,30.985L341.05,303.8h-7.559L318.4,343.531h7.218l11.63-31.86,6.288,18.039-8.371-.067-1.853,5.788h12.211l2.854,8.1h6.843l15.4-34.2,5.153.013a7.7,7.7,0,0,1,5.544,1.7,5.839,5.839,0,0,1,1.961,4.584,6.552,6.552,0,0,1-1.825,4.933,7.712,7.712,0,0,1-5.544,1.771h-6.328l13.063,21.174h7.94Z" transform="translate(-318.4 -303.529)" fill="#fff"/>
+      <path id="Path_1680" data-name="Path 1680" d="M546.712,308.886,544.17,301.8H536.8l6.248,15.659Z" transform="translate(-507.267 -301.8)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

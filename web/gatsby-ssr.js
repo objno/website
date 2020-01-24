@@ -1,7 +1,16 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+const React = require('react');
 
-// You can delete this file if you're not using it
+exports.onRenderBody = ({ setHeadComponents }) => {
+  /**
+   * @todo consider adding the whole package to our repository.
+   * @body Might give us better performance, also considering that BlackFoundry
+   * wouldnt change it considerably in the forseable future.
+   */
+  setHeadComponents([
+    <link
+      key='fonts'
+      rel='stylesheet'
+      href='https://cdn.jsdelivr.net/gh/BlackFoundryCom/InriaFonts@master/fonts/InriaSans/Web/fonts.css'
+    />
+  ]);
+};
