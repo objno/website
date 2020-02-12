@@ -1042,12 +1042,12 @@
     "@sanity/generate-help-url" "0.147.0"
     "@sanity/rich-date-input" "0.147.0"
 
-"@sanity/default-layout@^0.147":
-  version "0.147.6"
-  resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-0.147.6.tgz#98394938c04c94b20c8328e64857a4c5e053f7ac"
-  integrity sha512-jnSSKHWTGMRWmqdjwzTI57aGHTF3ytXx8fVdAug8REXzSpPCjDsdGcXPqy1g0Oy1nL0HXocr5qILkEcKvZ3nxQ==
+"@sanity/default-layout@^1.148":
+  version "1.148.0"
+  resolved "https://registry.yarnpkg.com/@sanity/default-layout/-/default-layout-1.148.0.tgz#8ccfbf4d794c9408d1bf17a568168e3a4134438b"
+  integrity sha512-vzW8xIXa0yOHTAL/nNIHjfzAMapVXAIgoGY/lE7yzHw1vdP1LjsDN0AGTrb/UiU3GyEFADmEjQqp9VKbvL0mMQ==
   dependencies:
-    "@sanity/generate-help-url" "0.147.0"
+    "@sanity/generate-help-url" "1.148.0"
     is-hotkey "^0.1.4"
     lodash "^4.17.15"
     react-click-outside "^3.0.0"
@@ -1200,6 +1200,11 @@
   version "0.147.0"
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-0.147.0.tgz#720b55ea736dfdc65006ca225eceb8fe79537fdf"
   integrity sha512-jf0PWK7dpSSJUI0zJdh+PFUODmsP5dS6P9iYv/ufhyYzmD+2iV7YCpA6weNhsmNGnil2+CTj6Eg43tSKxiClRA==
+
+"@sanity/generate-help-url@1.148.0":
+  version "1.148.0"
+  resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-1.148.0.tgz#52a882f1e89dc1486fed4424b32cdbdd7f1e0647"
+  integrity sha512-19WFZs33EJH2NjTBX8e4ID0LoHE69YlyUFTlrvUSOcdCbphfMtL3KvNS8T4ZJeOhC3P9qCpJfjSi11QNts+eJA==
 
 "@sanity/image-url@0.140.12":
   version "0.140.12"
