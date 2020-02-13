@@ -907,13 +907,11 @@
     rxjs "^6.1.0"
     scroll "^2.0.0"
 
-"@sanity/components@^0.147":
-  version "0.147.6"
-  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-0.147.6.tgz#a249c2c2147cb8f85b26b7b9d8d811d90c6b1870"
-  integrity sha512-HmjhJyESRVFOg5d6ysEpLnklAZ2Htt5OHbuWQVMpj0RgnpypiPN3kooVTaIBYQ2hM6S6M2E7j/smJx7EtnBSMg==
+"@sanity/components@^1.148":
+  version "1.148.1"
+  resolved "https://registry.yarnpkg.com/@sanity/components/-/components-1.148.1.tgz#ec57c4d7299ea447611fe8d64d9cc47d0e12dbb0"
+  integrity sha512-jDKn5wdBE5aEPl9K6RvFndjYigzMxJFf0CM34gqGyrImLwQfp7O7RPpfZwolUHrGof1OVFrdrUxWPIk4B0v8lg==
   dependencies:
-    "@sanity/date-input" "0.147.0"
-    "@sanity/imagetool" "0.147.0"
     attr-accept "^1.1.0"
     boundless-arrow-key-navigation "^1.1.0"
     chance "^1.0.4"
@@ -1033,14 +1031,6 @@
   dependencies:
     "@sanity/generate-help-url" "0.140.0"
     "@sanity/rich-date-input" "0.140.34"
-
-"@sanity/date-input@0.147.0":
-  version "0.147.0"
-  resolved "https://registry.yarnpkg.com/@sanity/date-input/-/date-input-0.147.0.tgz#f6d37f0f400c4cc9d5537bbceffb483873afb6d1"
-  integrity sha512-yKcq9rhoOHoMJc+46aYlV7Nwsv+E9QdYOQRU2KVcSIEFobYH9rNuX1XnpZgJQpWEwxxvqUPQR1w48EC2r9d9lQ==
-  dependencies:
-    "@sanity/generate-help-url" "0.147.0"
-    "@sanity/rich-date-input" "0.147.0"
 
 "@sanity/default-layout@^0.147":
   version "0.147.6"
@@ -1354,18 +1344,6 @@
   dependencies:
     "@sanity/generate-help-url" "0.140.0"
     lodash "^4.17.4"
-    moment "^2.19.1"
-    moment-timezone "^0.5.11"
-    prop-types "^15.6.0"
-    react-datepicker "^1.8.0"
-
-"@sanity/rich-date-input@0.147.0":
-  version "0.147.0"
-  resolved "https://registry.yarnpkg.com/@sanity/rich-date-input/-/rich-date-input-0.147.0.tgz#ec50d4a7f84b87bb8610756ff08862f8acd73bfe"
-  integrity sha512-jtcOnPBRre7UtCsXFLtmVeEGjimRI4kTJ+vAFWLpqQ5SjkL5EEQ/9bVMCCLp2o157fbLM+trn6fe3bxglGkGCA==
-  dependencies:
-    "@sanity/generate-help-url" "0.147.0"
-    lodash "^4.17.15"
     moment "^2.19.1"
     moment-timezone "^0.5.11"
     prop-types "^15.6.0"
