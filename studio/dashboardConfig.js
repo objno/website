@@ -18,13 +18,13 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
-                  buildHookId: '5e075d24afb89cfe6b025008',
+                  buildHookId: '',
                   title: 'Sanity Studio',
                   name: 'obj-website-studio',
                   apiId: 'e2cbda5f-9d9e-4e6d-87f5-c66710fbadce'
                 },
                 {
-                  buildHookId: '5e075d24cb6264a41ab039e7',
+                  buildHookId: '',
                   title: 'Portfolio Website',
                   name: 'obj-website',
                   apiId: '9ba6d94d-a11b-40a6-8111-c9c58a857fba'
