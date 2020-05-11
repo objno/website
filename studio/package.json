@@ -15,7 +15,7 @@
   "dependencies": {
     "@sanity/base": "^0.147",
     "@sanity/cli": "^0.147",
-    "@sanity/components": "^0.147",
+    "@sanity/components": "^1.149",
     "@sanity/core": "^0.147",
     "@sanity/dashboard": "^0.147",
     "@sanity/default-layout": "^0.147",
