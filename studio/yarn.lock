@@ -1010,13 +1010,14 @@
     postcss-value-parser "^3.3.0"
     source-list-map "^2.0.0"
 
-"@sanity/dashboard@^0.147":
-  version "0.147.6"
-  resolved "https://registry.yarnpkg.com/@sanity/dashboard/-/dashboard-0.147.6.tgz#8af3ccaae139bb8c5ab5c5b842ead99a74989040"
-  integrity sha512-MfN1+Mhlf4wuXHjMvEZEWV78eR1XUp4uH1gdtb9FM966UTierULmUEPb/pz1ZZx53lBbglSoysuvYLuMQjKNlA==
+"@sanity/dashboard@^2.7":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@sanity/dashboard/-/dashboard-2.7.0.tgz#73df5333ada718933c8ae7e4680dc7cea079a547"
+  integrity sha512-i5WPUNobXAudttwj3+YbZoXWaHcjazeuUE9aY6xfcdo/FJIrK5am/Vz1DhgWBYrmKYds0kBTM9zR7vNbQdAZIQ==
   dependencies:
+    "@sanity/image-url" "^0.140.19"
     lodash "^4.17.15"
-    react-icons "^2.2.7"
+    rxjs "^6.5.3"
 
 "@sanity/data-aspects@0.147.0":
   version "0.147.0"
@@ -1210,6 +1211,11 @@
   version "0.140.15"
   resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-0.140.15.tgz#7b8afc49130398e1a6e7bde03b5961d2384f7676"
   integrity sha512-SlL3JNWLmWEbnUW7B2vVIUazoRD/a6bg5D8nA4PNvRhu8EEE3WykrONQj7Ibpv/fAwTyxm1u2Hh+sy6f2FHvXg==
+
+"@sanity/image-url@^0.140.19":
+  version "0.140.22"
+  resolved "https://registry.yarnpkg.com/@sanity/image-url/-/image-url-0.140.22.tgz#7a65f56bb751f7b1c5dfacfadd34ee10fc4f0fde"
+  integrity sha512-CAmQZnj+KM7FSEYiWlIGDit072syicYuAw0w7R2ctMzHiZ4p9mE/g6dBnYqrqFUrw2J+GpJgPt+RVspKP8vdqA==
 
 "@sanity/imagetool@0.140.30":
   version "0.140.30"
