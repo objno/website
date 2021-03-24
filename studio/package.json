@@ -18,7 +18,7 @@
     "@sanity/components": "^0.147",
     "@sanity/core": "^0.147",
     "@sanity/dashboard": "^0.147",
-    "@sanity/default-layout": "^0.147",
+    "@sanity/default-layout": "^2.7",
     "@sanity/default-login": "^0.147",
     "@sanity/desk-tool": "^0.147",
     "date-fns": "^2.8.1",
