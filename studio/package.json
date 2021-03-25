@@ -20,7 +20,7 @@
     "@sanity/dashboard": "^0.147",
     "@sanity/default-layout": "^0.147",
     "@sanity/default-login": "^0.147",
-    "@sanity/desk-tool": "^0.147",
+    "@sanity/desk-tool": "^2.7",
     "date-fns": "^2.8.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
