@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@fontsource/space-mono': ^4.5.12
+  '@fontsource/space-mono': ^5.0.0
   '@googleapis/calendar': ^4.0.0
   '@playwright/test': ^1.28.1
   '@sveltejs/adapter-auto': ^2.0.0
@@ -30,7 +30,7 @@ specifiers:
   vitest: ^0.29.0
 
 dependencies:
-  '@fontsource/space-mono': 4.5.12
+  '@fontsource/space-mono': 5.0.3
   '@googleapis/calendar': 4.0.0
   '@sveltejs/adapter-static': 2.0.1_@sveltejs+kit@1.0.2
   date-fns: 2.29.3
@@ -255,8 +255,8 @@ packages:
       - supports-color
     dev: true
 
-  /@fontsource/space-mono/4.5.12:
-    resolution: {integrity: sha512-/ljrJgSIB/C0jUCn07r/V/KpkdHF9bnK2fD0raGSVkgQjFqQ6Q3LndVeBiUCJlIi6ROh7rHDkpFzn+nNmRgRlQ==}
+  /@fontsource/space-mono/5.0.3:
+    resolution: {integrity: sha512-0aiGjAjLi3ArurcD1B9HhZuPeHbUsWOWtnZas+X29MsX51FDbmRdMSUICzydRXeUmZDPKCAZoE5Zxkk+PnAaSg==}
     dev: false
 
   /@googleapis/calendar/4.0.0:
