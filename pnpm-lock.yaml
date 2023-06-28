@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@fontsource/space-mono': ^4.5.12
-  '@googleapis/calendar': ^4.0.0
+  '@googleapis/calendar': ^7.0.0
   '@playwright/test': ^1.28.1
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/adapter-static': ^2.0.0
@@ -31,7 +31,7 @@ specifiers:
 
 dependencies:
   '@fontsource/space-mono': 4.5.12
-  '@googleapis/calendar': 4.0.0
+  '@googleapis/calendar': 7.0.0
   '@sveltejs/adapter-static': 2.0.1_@sveltejs+kit@1.0.2
   date-fns: 2.29.3
   lint-staged: 13.1.0
@@ -259,8 +259,8 @@ packages:
     resolution: {integrity: sha512-/ljrJgSIB/C0jUCn07r/V/KpkdHF9bnK2fD0raGSVkgQjFqQ6Q3LndVeBiUCJlIi6ROh7rHDkpFzn+nNmRgRlQ==}
     dev: false
 
-  /@googleapis/calendar/4.0.0:
-    resolution: {integrity: sha512-4z1e0Wh1FIfeubDkjyVCouAFpHBbG08geYtq9Fk22XF97+T1N8XhY2DcIjUHmGtU1LIYw3bbv5Oe5dV99IgTYg==}
+  /@googleapis/calendar/7.0.0:
+    resolution: {integrity: sha512-KcpSxlZHrhPtwrDc4TzsVOhkjHxnixp1OlSNNFyYF44hQNMIQe6bs5tul4WtE0XQCmTxhayp+uZT7wBHwAtU/w==}
     engines: {node: '>=12.0.0'}
     dependencies:
       googleapis-common: 6.0.4

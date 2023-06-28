@@ -43,7 +43,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/space-mono": "^4.5.12",
-		"@googleapis/calendar": "^4.0.0",
+		"@googleapis/calendar": "^7.0.0",
 		"@sveltejs/adapter-static": "^2.0.0",
 		"date-fns": "^2.29.3",
 		"lint-staged": "^13.1.0",
