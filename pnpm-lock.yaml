@@ -17,7 +17,7 @@ specifiers:
   husky: ^8.0.0
   lint-staged: ^13.1.0
   md5: ^2.3.0
-  prettier: ^2.8.0
+  prettier: ^3.0.0
   prettier-plugin-svelte: ^2.8.1
   schema-dts: ^1.1.0
   svelte: ^3.54.0
@@ -50,8 +50,8 @@ devDependencies:
   eslint-config-prettier: 8.6.0_eslint@8.31.0
   eslint-plugin-svelte3: 4.0.0_6go7qzsvzihesfwmyvq3tnl5qq
   husky: 8.0.3
-  prettier: 2.8.1
-  prettier-plugin-svelte: 2.9.0_ajxj753sv7dbwexjherrch25ta
+  prettier: 3.0.0
+  prettier-plugin-svelte: 2.9.0_7cy3y4y5jc2qwfyzwh4eiarq74
   svelte: 3.55.0
   svelte-check: 3.1.4_svelte@3.55.0
   svelte-sitemap: 2.5.4
@@ -2199,19 +2199,19 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.9.0_ajxj753sv7dbwexjherrch25ta:
+  /prettier-plugin-svelte/2.9.0_7cy3y4y5jc2qwfyzwh4eiarq74:
     resolution: {integrity: sha512-3doBi5NO4IVgaNPtwewvrgPpqAcvNv0NwJNflr76PIGgi9nf1oguQV1Hpdm9TI2ALIQVn/9iIwLpBO5UcD2Jiw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.8.1
+      prettier: 3.0.0
       svelte: 3.55.0
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
-    engines: {node: '>=10.13.0'}
+  /prettier/3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
