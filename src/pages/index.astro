@@ -1,0 +1,55 @@
+---
+import Logo from '@components/logo.astro';
+import Layout from '@layouts/default.astro';
+---
+
+<Layout
+  path="/"
+  schema={{
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Objekt Venture AS',
+    url: 'https://obj.no/',
+    logo: 'https://obj.no/assets/klynge-logo.svg',
+    image: 'https://obj.no/assets/klynge-logo.svg',
+    telephone: '+47 95308087',
+    email: 'so@obj.no',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Myntgata 2',
+      addressLocality: 'Oslo',
+      addressRegion: 'Oslo',
+      postalCode: '0151',
+      addressCountry: 'NO',
+    },
+  }}
+>
+  <main>
+    <Logo />
+    <h1>We make the world a better place by gathering passionate people.</h1>
+    <p>
+      We build fantastic companies, such as <a href="https://ayr.no">AYR</a>,
+      <a href="https://bjerk.io">Bjerk</a>, <a href="https://tabetalt.no">
+        Tabetalt
+      </a>,
+      <a href="https://vignette.no">Vignette</a> and <a href="https://velt.no">
+        Velt
+      </a>.
+    </p>
+  </main>
+</Layout>
+
+<style>
+	main {
+		width: min(64ch, 100% - 4rem);
+		margin-top: 1rem;
+    margin-inline: auto;
+
+    font-size: 1.5rem;
+	}
+
+	strong {
+		font-size: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+		font-weight: bold;
+	}
+</style>
