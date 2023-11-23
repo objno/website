@@ -3,8 +3,7 @@
 	<p>
 		We build fantastic companies, such as <a href="https://ayr.no">AYR</a>,
 		<a href="https://bjerk.io">Bjerk</a>, <a href="https://tabetalt.no">Tabetalt</a>,
-		<a href="https://vignette.no">Vignette</a>, <a href="https://indiv.no">Indiv</a> and
-		<a href="https://velt.no">Velt</a>.
+		<a href="https://vignette.no">Vignette</a> and <a href="https://velt.no">Velt</a>.
 	</p>
 </div>
 
