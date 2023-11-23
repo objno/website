@@ -13,15 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import type { Thing, WithContext, Graph } from 'schema-dts';
+import type { Thing, WithContext } from 'schema-dts';
 
-export function jsonLd(item: Graph, space?: string | number): string;
 export function jsonLd<T extends Thing>(
-  item: WithContext<T>,
-  space?: string | number,
-): string;
-export function jsonLd(
-  item: Graph | WithContext<Thing>,
+  item: WithContext<T> | WithContext<T>[],
   space?: string | number,
 ): string {
   return JSON.stringify(item, safeJsonLdReplacer, space);
